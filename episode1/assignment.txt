@@ -1,0 +1,50 @@
+● What is Emmet?
+● Difference between a Library and Framework?
+● What is CDN? Why do we use it?
+● 🟩 Why is React known as React?
+● What is crossorigin in script tag?
+● 🟩 What is diference between React and ReactDOM
+● 🟩 What is difference between react.development.js and react.production.js files via CDN?
+● 🟩 What is async and defer?
+
+⚡ LIBRARY v/s FRAMEWORK
+- FUNCTIONALITY
+- A library is a collection of pre-written code that provides specific functionality that you can use in your own code
+- A framework is a more comprehensive tool that provides a structure and a set of rules or conventions for building applications
+- CONTROL FLOW
+- we control the flow of your application
+- The control flow of your application is often dictated by the framework itself. You write code following the framework's conventions.
+- USAGE
+- Libraries are often used to perform specific tasks or add specific features to an application. You can selectively use parts of a library based on your requirements without being tied to the entire library.
+- Frameworks are used to build entire applications. They provide a skeleton or foundation for your project, and you fill in the details by writing code that fits into the framework's structure.
+- EXAMPLES
+
+⚡ CDN LINKS
+- CDN stands for content delivery networks
+- It is a network of distributed servers strategically located across different geographical locations.
+- The primary purpose of a CDN is to deliver content to users more efficiently by reducing latency and improving website performance.
+
+⚡ WHY IS REACT KNOWN AS REACT?
+- because it reacts quickly to changes without reloading the whole page. It's built around components that "react" and update.
+
+⚡ REACT v/s REACT-DOM
+- REACT:
+- This is the core library for building user interfaces in React applications.
+- It provides the logic and mechanisms for creating components, managing their state, handling events, and rendering the UI.
+- REACT-DOM
+- A library tailored for browser environments.
+- It provides methods for rendering React components into the DOM (Document Object Model) of a web page. 
+- IN SHORT:
+- React is the core library for building user interfaces in React applications, while ReactDOM is a companion library that facilitates the rendering of React components in web browsers.
+
+⚡ REACT.PRODUCTION.JS AND REACT.DEVELOPMENT.JS
+- react.development.js
+- is used in development phase
+- includes additional warnings, debugging features, error messages  
+- larger in size
+- react.production.js
+- is used in production phase 
+- smaller in size
+- lack development specific features
+
+⚡ ASYNC v/s DEFER (done in javascript)
