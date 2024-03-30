@@ -46,14 +46,14 @@ console.log(newElem);
 // react.development.js is core react
 // react-dom.development.js is additional script link for browser environment (it's like a bridge between react and the brower's dom)
 
-// create an element is core work of react
-// attaching that react element to the browser's DOM is the work of react dom
+// creating an element is core work of react
+// attaching this react element to the browser's DOM is the work of react dom
 
 // DOM manipulation is a costly operation
 
 // the react.crateElement that we made is just a javascript object
 
-// the render method takes that object (of reactelement) and converts it into DOM element and inserts it into the DOM
+// the render method takes this reactelement and converts it into DOM element and inserts it into the DOM
 
 // code is getting untidy
 // solution is jsx
@@ -71,6 +71,6 @@ console.log(newElem);
 // react is a library and not a framework
 
 // HOMEWORK
-// what are cdn links?
+// 🟩 what are cdn links?
 // what is cross origin?
-// what is the difference between library and framework?
+// 🟩 what is the difference between library and framework?

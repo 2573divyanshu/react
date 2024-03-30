@@ -1,11 +1,16 @@
-● What is Emmet?
-● Difference between a Library and Framework?
-● What is CDN? Why do we use it?
+● 🟩 What is Emmet?
+● 🟩 Difference between a Library and Framework?
+● 🟩 What is CDN? Why do we use it?
 ● 🟩 Why is React known as React?
-● What is crossorigin in script tag?
+● 🟥 What is crossorigin in script tag?
 ● 🟩 What is diference between React and ReactDOM
 ● 🟩 What is difference between react.development.js and react.production.js files via CDN?
 ● 🟩 What is async and defer?
+
+⚡ EMMET
+- is a toolkit
+- it's a plugin for text editors 
+- it provides shorthand expressions that expand to full fledge HTML and CSS code
 
 ⚡ LIBRARY v/s FRAMEWORK
 - FUNCTIONALITY
@@ -18,11 +23,22 @@
 - Libraries are often used to perform specific tasks or add specific features to an application. You can selectively use parts of a library based on your requirements without being tied to the entire library.
 - Frameworks are used to build entire applications. They provide a skeleton or foundation for your project, and you fill in the details by writing code that fits into the framework's structure.
 - EXAMPLES
+- libraries: jQuery, D3.js, redux, three.js
+- frameworks: angular, vue, 
 
 ⚡ CDN LINKS
 - CDN stands for content delivery networks
 - It is a network of distributed servers strategically located across different geographical locations.
 - The primary purpose of a CDN is to deliver content to users more efficiently by reducing latency and improving website performance.
+- Advantags :
+  - high availability (content is stored at multiple servers, no problem if one of them fails)
+  - improved performance (content is delivered from the nearest server)
+  - Global Reach (servers are located at various geographical locations)
+- Disadvantages :
+  - Cost (cost of CDN depends on bandwidth usage, storage and number of requests, so CDN costs can be considerable for small enterprises)
+  - Cache invalidation (may require additional configuration)
+  - Privacy issues (because we are sotring our data on third party CDN servers)
+  - Limited control (over certains aspects of caching, security policies, edge server behavior)
 
 ⚡ WHY IS REACT KNOWN AS REACT?
 - because it reacts quickly to changes without reloading the whole page. It's built around components that "react" and update.
