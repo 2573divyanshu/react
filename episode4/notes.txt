@@ -1,0 +1,25 @@
+TASK 1 : planning the layout
+write not rendered inside the root element
+
+TASK 2 : building the header
+
+TASK 3 : building body, search bar, card container and a card
+
+USING PROPS
+- arguments to a functional component are passed as key value pairs, which aren't comma separated
+- all these parameter-argument key-value pairs are wrapped in a props object and are handed over to the functional component, then inside the functional component we access these arguments one by one use props.paramName
+- either we can use the method discussed above in which we use props.paramName or we can de-reference the props object 
+
+CONFIG DRIVEN UI
+- UI is driven by data
+- UI layer and Data layer in sync
+
+TASK 4 : Copying an array restaurant objects from the Swiggy API and pasting it into our codebase, using it to make multiple cards, using props, 
+
+TASK 5 : Truncating string with ellipsis
+
+ABOUT KEYS
+- react uses keys to uniquely identify an element 
+- react needs to identify elements uniquely so that it can decide what needs to be re-rendered and what need not 
+- skipping keys gives a big performance hit
+- indexes shouldn't be used as keys

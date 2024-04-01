@@ -37,7 +37,7 @@
 - Disadvantages :
   - Cost (cost of CDN depends on bandwidth usage, storage and number of requests, so CDN costs can be considerable for small enterprises)
   - Cache invalidation (may require additional configuration)
-  - Privacy issues (because we are sotring our data on third party CDN servers)
+  - Privacy issues (because we are storing our data on third party CDN servers)
   - Limited control (over certains aspects of caching, security policies, edge server behavior)
 
 ⚡ WHY IS REACT KNOWN AS REACT?

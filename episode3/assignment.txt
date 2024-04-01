@@ -1,0 +1,47 @@
+⚡JSX
+- stands for javascript xml
+- is a syntax extension for JavaScript
+- has XML-like Syntax 
+- allows embedding JavaScript expressions
+- allows component composition
+
+⚡React.createElement vs JSX
+- React.createElement
+  - less readable
+  - cumbersome and error prone
+- JSX
+  - enhances readability
+  - code closely resembles the final output
+
+⚡Benefits of JSX
+- enhanced readability
+- simplicity
+- component composition
+
+⚡Behind the Scenes of JSX
+- is converted into React.createElement syntax
+- jsx is just syntactic sugar
+
+⚡Babel & parcel role in JSX
+- converts JSX to React.createElement 
+- converts modern JS to backward compatible code
+
+⚡Components
+- components are reusable and independent units of code that encapsulate a part of the user interface and it's behaviour
+- they are reusable
+- the encapsulate the structure and behaviour
+- promotes separation of concerns
+
+⚡Functional Components
+- also known as stateless components or presentational components
+- are functions that return JSX
+
+⚡Composing Components
+- Component composition refers to the practice of combining multiple smaller components to create more complex and feature-rich user interface (UI) components
+
+⚡Role of type attribute in script tag? What options can I use there? 🟥 
+
+⚡{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>}
+- first one is how we render a reactElement
+- second one is how we render a functional component
+- third one is how we render a functional component

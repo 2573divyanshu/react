@@ -27,10 +27,11 @@ const newElem = React.createElement(
 const rootElem = ReactDOM.createRoot(document.getElementById('root'));
 rootElem.render(newElem);
 console.log(newElem);
+
 // WHY OUR CODE ISN'T READY FOR BEING PUSHED TO PRODUCTION
 // - we need optimize our code
 // - we need bundle our project
-// before we push it do production
+// - before we push it do production
 
 // IS REACT ENOUGH TO MAKE OUR WEBSITE FAST
 // - no
@@ -97,26 +98,26 @@ console.log(newElem);
 
 // WHY SO MANY FILES IN NODE_MODULES  
 // - because parcel can't do the work alone
-// - it needs the help of other depenecies
+// - it needs the help of other packages
 
 // IGNITING OUR APP
 // - using parcel
 // - using the command npx parcel index.html
-// - our project is not hosted on a local server  
+// - our project is now hosted on a local server  
 
 // NPX 
 // - commands are used for execution packages
 
 // INSTALL REACT AND REACT-DOM
-// - npm is not a good option (because fetching from npm makes a network request) (cdn links might change)
+// - cdn is not a good option (because fetching from cdn makes a network request) (cdn links might change)
 // - we will install react and react-dom as normal dependencies
-// npm i react 
-// npm install react-dom
+// - for installing react npm i react 
+// - for installing react-dom npm install react-dom
 
 // IMPORTING REACT AND REACT-DOM
 // - now we are not using cdn links
 // - so we need to import the react and react dom from the node_modules
-// - but this throws an error that browser scripts cannot have import statements
+// - but this throws an error that browser scripts cannot have import and export statements
 // - we need to include the script as a module
 
 // HMR
@@ -154,7 +155,8 @@ console.log(newElem);
 
 // USING BROWSERLISTS
 // - we can specify in which browsers should our proejct work perfectly
-// - it would work on other browsers aslo, but the included browser are ensured to support our project
+// - it would work on other browsers also, but the included browser are ensured to support our project nicely
 // - we shouldn't inlcuded all the browsers because, it will add overhead 
 
-// CARET V/S TILDE
+// HOMEWORK
+// - CARET v/s TILDA

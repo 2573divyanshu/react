@@ -1,0 +1,59 @@
+⚡ Is JSX mandatory for React?
+- no
+
+⚡ Is ES6 mandatory for React?
+- no
+
+⚡ {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX 🟥
+
+⚡ How can I write comments in JSX?
+- like this {/* This is a single-line comment in JSX */}
+
+⚡ What is <React.Fragment></React.Fragment> and <></> ?
+- both are used to render multiple elements without the need for a wrapper div or any other parent element. This is particularly useful when you need to return adjacent JSX elements from a component's render method.
+
+⚡ What is Virtual DOM?
+- Real DOM: The Real DOM is a tree-like structure that represents the HTML structure of a web page. 
+- Virtual DOM: The Virtual DOM is a lightweight copy of the Real DOM maintained by the framework. It's a JavaScript representation of the Real DOM, consisting of JavaScript objects that mimic the structure of the actual HTML elements.
+
+⚡ What is Reconciliation in React?
+- In React, reconciliation is the process of updating the DOM to match the desired structure of the components rendered by your React application.
+- When changes occur in a React component (such as state updates or prop changes), React needs to figure out how to efficiently update the browser's DOM to reflect these changes. This is where reconciliation comes into play.
+- When a component is rendered or re-rendered a virtual DOM is created
+- React compares the new Virtual DOM with the old Virtual DOM so as to determine what has changed this is called diffing
+- Instead of re-rendering the whole page React aims to make the minimum number of changes necessary to update the actual DOM to reflect the new state.
+- React reconciles the differences by updating the real DOM elements accordingly
+
+⚡ What is React Fiber?
+- React Fiber is an internal reimplementation of the core algorithm used by React to reconcile the virtual DOM and manage component rendering. It was introduced in React version 16.
+- Incremental Rendering : Fiber enables React to break down the rendering work into smaller units, allowing it to prioritize and schedule updates more efficiently. This incremental rendering approach helps improve the perceived performance of React applications, especially for interactions that require frequent updates. (if there are multiple updates that are to happen on a page, then it's incremental rendering which handles the smooth operation of which update should be handled first and while later)
+- Priority Scheduling : Fiber introduces the concept of priority scheduling, which allows React to assign different priorities to rendering tasks based on their importance. This helps ensure that high-priority updates (such as user interactions) are processed quickly, without blocking lower-priority tasks. (and which update should be rendered first and which later is decided using priority of updates which is assigned by priority scheduling feature)
+- Concurrency Control : Fiber provides better control over the execution of rendering tasks, allowing React to pause, abort, or resume work as needed. This concurrency control enables React to handle interactions more responsively and avoid jank or stuttering in the user interface.
+- Improved Error Handling : Fiber improves error handling and recovery mechanisms in React, making it easier to diagnose and fix issues in component rendering. It introduces better support for error boundaries and error handling strategies, which helps prevent crashes and maintain application stability.
+
+⚡ Why we need keys in React? When do we need keys in React?
+- keys are used to uniquely identify elements in a collection of elements (such as an array of JSX elements) that are rendered dynamically. They help React identify which items have changed, are added, or are removed. Keys are particularly important when rendering lists of elements, such as in the case of using the map() function to generate a list of components.
+- using keys help in preserving component state (If we give keys to elements of a list then react will be able to preserve the state of the elements, because it can associate an element, it's key and it's state, but if we don't give it a key, then react won't be able to make this association and thus won't be able to preserve state)
+
+⚡ Can we use index as keys in React?
+- Yes, you can use the index of elements in an array as keys in React, but it's generally not recommended unless you have specific requirements and understand the potential consequences.
+- we can use keys if the order doesn't change
+- but if elements in the list change, or are updated or are deleted or are updated, then this will cause performance issues
+
+⚡ What is props in React? Ways to
+- Props (short for properties) are a fundamental concept in React used for passing data from parent components to child components. Props are read-only, meaning that child components cannot modify the props they receive from their parent components.
+- Passing Props: When you render a React component, you can pass data to it by providing attributes to the component's JSX tag. These attributes are referred to as props. For example: <MyComponent name="John" age={30} />
+- Accessing Props: Inside the component, you can access props via the props object. For example: 
+const MyComponent = (props) => {
+  return <div>{props.name} is {props.age} years old.</div>;
+};
+- Functional Components: In functional components, props are passed as an argument to the component function,
+
+⚡ What is a Config Driven UI ?
+- A Config Driven UI (User Interface) refers to an approach where the structure, behavior, and appearance of a user interface are primarily determined by configuration data rather than hardcoded logic or components. In other words, the UI's design and functionality are driven by external configuration files, settings, or data structures.
+- They offer high degree of flexibility
+
+EXTRA 
+
+🟥 Child props
+🟥 Default Arguments

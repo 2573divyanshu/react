@@ -51,7 +51,7 @@ console.log(newElem);
 
 // DOM manipulation is a costly operation
 
-// the react.crateElement that we made is just a javascript object
+// the react.createElement make a react element which is just a javascript object
 
 // the render method takes this reactelement and converts it into DOM element and inserts it into the DOM
 
